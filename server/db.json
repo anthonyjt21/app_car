@@ -1,0 +1,102 @@
+{
+  "customers": [
+    {
+      "id": 1,
+      "first_name": "anthony",
+      "last_name": "jimenez",
+      "email": "anthonyjt_21@hotmail.com",
+      "phone": "86647600",
+      "address": "villa libertad",
+      "description": "g119"
+    },
+    {
+      "first_name": "Claudia",
+      "last_name": "martinez",
+      "email": "claudia@gmail.com",
+      "phone": "6949394",
+      "address": "villa ruben dario",
+      "description": "ok",
+      "id": 3
+    },
+    {
+      "first_name": "victoria",
+      "last_name": "isabel",
+      "email": "victoria@gmail.com",
+      "phone": "6949394",
+      "address": "villa ruben dario",
+      "description": "ok",
+      "id": 4
+    },
+    {
+      "first_name": "noel",
+      "last_name": "lopez",
+      "email": "anthonyjt21@gmail.com",
+      "phone": "444343",
+      "address": "villa ruben dario",
+      "description": "da",
+      "id": 5
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "declaraciones": [
+    {
+      "id": 1,
+      "aduanaDespacho": "0350",
+      "noDeclaracion": "12",
+      "noRegistro": "13",
+      "fecha": "05/11/2019",
+      "codExportador": "J54545665",
+      "nomExportador": "Agricorp",
+      "paisExportador": "HN",
+      "aduanaEntrada": "0240",
+      "refManifiesto": "Man01",
+      "codTransportista": "NI4566",
+      "montAlmacenaje": 2344,
+      "nombreTransportista": "Juan Perez",
+      "modoTransporte": "Terrestre",
+      "paisTransportista": "PA",
+      "placaMedio": "NI-255",
+      "totalBultos": 234445,
+      "montoFactura": 3324,
+      "pesoNeto": 34444,
+      "pesoBruto": 32443,
+      "montoFlete": 32443.34,
+      "montoSeguro": 32443.33,
+      "montoOtrosGatos": 32443.44,
+      "montoValorAduana": 32443.43,
+      "terminoEntrega": "CIF"
+    }
+  ],
+  "declaracionItems": [
+    {
+      "id": 1,
+      "codSac": "455666666",
+      "desSac": "Descripcion sac",
+      "paisOrigen": "US",
+      "conExoneracion": false,
+      "desMercancia": "Descripcion",
+      "acuerdo": "FAUCA",
+      "montoFactura": 3324,
+      "montoFlete": 32443.34,
+      "montoSeguro": 32443.33,
+      "montoOtrosGatos": 32443.44,
+      "montoValorAduana": 32443.43
+    }
+  ]
+}
